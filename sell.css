@@ -1,0 +1,33 @@
+body {
+    background: linear-gradient(to right, #FF4B2B, #FF416C);
+}
+
+div {
+    background-color: black;
+    width: 98%;
+    padding: 0px;
+    position: absolute;
+    left: 1%;
+    top: 2%;
+    border-radius: 0px;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 0px 0px 20px black;
+    
+}
+
+p {
+    font-family: 'Jazz LET', fantasy;
+    padding: 0 5px;
+    font-weight:20px;
+    color:white;
+}
+#button{
+    padding: 5px;
+    width: 130px;
+    color: white ;
+    border-radius: 15px;
+    background-color: #FF416C;
+    border: none;
+    box-shadow: 0px 0px 10px black;
+    cursor: pointer;
+}

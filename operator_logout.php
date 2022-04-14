@@ -1,0 +1,9 @@
+<?php
+session_start();
+if(isset($_SESSION['operator_id']))
+{
+	unset($_SESSION['operator_id']);
+    header("Location:operator_login.html");
+    die;
+}
+?>
